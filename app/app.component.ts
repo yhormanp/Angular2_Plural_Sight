@@ -1,4 +1,3 @@
-
 import {Component} from '@angular/core';
 import {ProductService} from './products/product.service';
 
@@ -9,7 +8,6 @@ import {ProductService} from './products/product.service';
         <pm-products></pm-products>
     </div>
     `,
-
     providers: [ProductService]
 })
 

@@ -7,7 +7,7 @@ export class ProductService {
     private _productUrl = 'api/products/products.json';
 
 
-    getProducts(): IProduct [] {
+    getProducts(): IProduct[] {
         return [
             {
                 "productId": 1,
@@ -30,11 +30,5 @@ export class ProductService {
                 "imageUrl": "http://openclipart.org/image/300px/svg_to_png/58471/garden_cart.png"
             }]
     }
-
-    // private handleError(error: Response) {
-    //     // in a real world app, we may send the server to some remote logging infrastructure
-    //     // instead of just logging it to the console
-    //     console.error(error);
-    //     return Observable.throw(error.json().error || 'Server error');
-    // }
 }
+
